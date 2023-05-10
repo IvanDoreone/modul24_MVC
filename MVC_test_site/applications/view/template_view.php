@@ -2,7 +2,7 @@
 <html lang="ru"> 
 <head> 
 <meta charset="utf-8"> 
-<link rel="stylesheet" href="http://localhost:8888/modul24/MVC_test_site/styles/style.css">
+<link rel="stylesheet" href="../../styles/style.css">
 
 <?php 
 //динамический вывод правильного title

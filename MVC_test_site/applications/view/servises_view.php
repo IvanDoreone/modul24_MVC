@@ -24,7 +24,7 @@
 </table>
     
     <h4>и картинка офиса:</h4>
-    <p><img src ="http://localhost:8888/modul24/MVC_test_site/images/2605862.jpg" width="30%"></p>
+    <p><img src ="../../images/2605862.jpg" width="30%"></p>
     
  <p>Согласитесь, нукуда не перейдешь по <a href="#">пустой ссылке</a> </p>
 <?php
