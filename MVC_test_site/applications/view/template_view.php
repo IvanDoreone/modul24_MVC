@@ -2,7 +2,7 @@
 <html lang="ru"> 
 <head> 
 <meta charset="utf-8"> 
-<link rel="stylesheet" href="../../styles/style.css">
+<link rel="stylesheet" href="../styles/style.css">
 
 <?php 
 //динамический вывод правильного title
@@ -17,18 +17,19 @@ $title = current($new_arr_title);
 
 <h2>Это шапка сайта</h2>
 <p>здесь только ссылки на основные станицы:</p>
-<a href="http://localhost:8888/modul24/MVC_test_site/applications/index.php/?url=Main">Main</a>
-<a href="http://localhost:8888/modul24/MVC_test_site/applications/index.php/?url=Contacts">Contacts</a>
-<a href="http://localhost:8888/modul24/MVC_test_site/applications/index.php/?url=Servises">Servises</a>
-<a href="http://localhost:8888/modul24/MVC_test_site/applications/index.php/?url=Portfolio">Portfolio</a>
-<a href="http://localhost:8888/modul24/MVC_test_site/applications/index.php/?url=PHPinfo">PHPinfo</a>
-<a href="http://localhost:8888/modul24/MVC_test_site/applications/index.php/?url=PHPgd">PHP_GD</a>
+<a href="http://localhost:8888/modul24/MVC_test_site/applications/Main">Main</a>
+<a href="http://localhost:8888/modul24/MVC_test_site/applications/Contacts">Contacts</a>
+<a href="http://localhost:8888/modul24/MVC_test_site/applications/Servises">Servises</a>
+<a href="http://localhost:8888/modul24/MVC_test_site/applications/Portfolio">Portfolio</a>
+<a href="http://localhost:8888/modul24/MVC_test_site/applications/PHPinfo">PHPinfo</a>
+<a href="http://localhost:8888/modul24/MVC_test_site/applications/PHPgd">PHP_GD</a>
 </header>
 
 <h4>#динамический контент:</h4>
 <?php 
 //вызов станцы с динмическим контентом: по имени вызванного контроллера
 include_once $content_view; 
+
 ?>
 
 <footer>
